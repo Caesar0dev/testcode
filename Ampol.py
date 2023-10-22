@@ -13,6 +13,7 @@ from webdriver_manager.chrome import ChromeDriverManager
 import os
 from PyPDF2 import PdfReader
 
+
 print("-----------Automation Scraping is successfully started------------")
 driver = uc.Chrome(driver_executable_path=ChromeDriverManager().install())
 driver.maximize_window()
